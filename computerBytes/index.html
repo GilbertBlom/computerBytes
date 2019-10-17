@@ -8,6 +8,7 @@
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 </head>
   <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -150,16 +151,19 @@
 						<div class="col-sm-6 form-group">
 							<input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
 						</div>
+						<div class="col-sm-6 form-group">
+							<input id="phone" class="form-control" name="text" placeholder="10 digit mobile no." type="text" required>
+						</div>
 					</div>
-					<textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+					<textarea id="message" class="form-control" name="comments" placeholder="Comment" rows="5"></textarea><br>
 					<div class="row">
 						<div class="col-sm-12 form-group">
-							<button class="btn btn-default pull-right" type="submit">Send</button>
+							<button id="submit" class="btn btn-default pull-right" type="submit">Send</button>
 						</div>
 					</div>
 				</div>
 			</div>
-				</form>
+			</form>
      <footer class="container-fluid text-center">
      	<a href="index.html" title="To Top">
      		<span class="glyphicon glyphicon-chevron-up"></span>
